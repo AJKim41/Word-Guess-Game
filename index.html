@@ -12,25 +12,54 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <script src="./assets/js/app.js"></script>
   </head>
+
   <body>
     <div class="container">
       <div class="row">
-        <h1>Name that Ghibli Studio film!</h1>
-      </div>
-      <div class="row">
-        <div id="correctGuess">
-          <p>Correct Guess:</p>
-          <p id="correctLetters"></p>
+        <div class="col-md-12">
+          <h1>Name that Ghibli Studio film!</h1>
         </div>
       </div>
-      <div class="row">
-        <div id="wrongGuess">
-          <p>Wrong Guesses:</p>
-          <p id="incorrectLetters"></p>
+      <div class="row" id="correctAnswers">
+        <div class="col-md-12">
+          <div id="correctGuess">
+            <p>Correct Guess:</p>
+            <p id="correctLetters"></p>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="wrongAnswers">
+        <div class="col-md-12">
+          <div id="wrongGuess">
+            <p>Wrong Guesses:</p>
+            <p id="incorrectLetters"></p>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="scores">
+        <div class="col-md-3">
+          <div id="record">
+            <p>Number of attempts:</p>
+          </div>
+            <p id="attempts">7</p>
+        </div>
+          <div class="col-md-3">
+            <p>Number of wins:</p>
+            <p id="wins">0</p>
+          </div>
+          <div class="col-md-3">
+            <p>Number of losses:</p>
+            <p id="losses">0</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12" id="audio">
+            <iframe width="0" height="0" frameborder="0">
+            </iframe>
         </div>
       </div>
     </div>
+    <script src="./assets/js/app.js"></script>
   </body>
 </html>

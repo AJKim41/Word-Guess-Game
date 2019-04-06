@@ -1,0 +1,44 @@
+html,
+body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-size: cover !important;
+}
+
+* {
+    color: #fff;
+    text-align: center;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+h1 {
+    margin-top: 15%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#correctAnswers {
+    margin-top: 25px;
+}
+
+#wrongAnswers {
+    margin-top: 25px;
+}
+
+#scores {
+    margin-top: 25px;
+    justify-content: center;
+}
+
+#audio {
+    margin-top: 25px;
+}
